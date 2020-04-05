@@ -42,4 +42,4 @@ submean <- function(x){ ##create a function to compute the mean value of a list
 final<-submean(by_subject)
 
 # Export the final table
-write.table(final,file = "tidyData.txt",quote = FALSE, sep = ",")
+write.table(final,file = "tidyData.txt",quote = FALSE,row.names = FALSE)
