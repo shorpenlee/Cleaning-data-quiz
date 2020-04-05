@@ -21,7 +21,7 @@ For each record in the dataset it is provided:
 - Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 - These signals were used to estimate variables of the feature vector for each pattern: '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions. 
 
-**Note: The units are radians/second. **
+**Note: The units are radians/second.**
 
 ## High-level guidelines of the process
 1. Merge the training and the test sets to create one data set.
